@@ -1,22 +1,22 @@
 {
-  "name": "marerial-skeleton",
+  "name": "generator-react-frontend-boilerplate",
   "version": "1.0.0",
-  "description": "Skeleton project for apps",
+  "description": "Skeleton project for apps using React and Webpack",
   "main": "app.js",
+  "keywords": [ "yeoman-generator", "react" , "webpack"],
   "scripts": {
-    "test": "mocha",
-    "start": "nodemon app.js"
+    "start": "webpack --progress -d --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/actuallymentor/material-skeleton.git"
+    "url": "git+ssh://github.com:actuallymentor/react-frontend-boilerplate.git"
   },
   "author": "Mentor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actuallymentor/material-skeleton/issues"
+    "url": "https://github.com/actuallymentor/react-frontend-boilerplate/issues"
   },
-  "homepage": "https://github.com/actuallymentor/material-skeleton#readme",
+  "homepage": "https://github.com/actuallymentor/react-frontend-boilerplate#readme",
   "dependencies": {
 
   },
