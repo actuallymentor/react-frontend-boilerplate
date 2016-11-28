@@ -1,5 +1,4 @@
-# React Frontend Boilerplate
-[![npm version](https://badge.fury.io/js/generator-react-frontend-boilerplate.svg)](https://badge.fury.io/js/generator-react-frontend-boilerplate)
+# React Frontend Boilerplate[![npm version](https://badge.fury.io/js/generator-react-frontend-boilerplate.svg)](https://badge.fury.io/js/generator-react-frontend-boilerplate)
 [![devDependencies Status](https://david-dm.org/actuallymentor/react-frontend-boilerplate/dev-status.svg)](https://david-dm.org/actuallymentor/react-frontend-boilerplate?type=dev)
 
 <img height="50px" alt="react" src="http://i.imgur.com/D19TgT8.png" />
