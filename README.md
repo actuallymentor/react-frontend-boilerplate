@@ -21,7 +21,7 @@ This is a little react project boilerplate for frontend-only projects. I made th
 Git clone this repository and npm install.
 
 ``` shell
-git clone https://github.com/actuallymentor/react-node-boilerplate my-app
+git clone https://github.com/actuallymentor/react-frontend-boilerplate my-app
 cd my-app
 npm install
 ```
