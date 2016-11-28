@@ -5,6 +5,8 @@
 <img height="50px" alt="browsersync" src="http://i.imgur.com/L5peje9.png" />
 <img height="50px" alt="browsersync" src="http://i.imgur.com/p6ak15u.png" />
 
+There is a full stack (node, passport etc) version of this boilerplate available [here]( https://github.com/actuallymentor/react-node-boilerplate )
+
 This is a little react project boilerplate for frontend-only projects. I made this so I can quickly made mini projects when bored.
 
 | Component | Module |
