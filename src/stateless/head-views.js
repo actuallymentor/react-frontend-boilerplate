@@ -35,21 +35,7 @@ export const MenuView = ( { links, register, login } )  =>  {
 	return (
 		<ul>
 			{menuitems}
-			<li className = "depth menuitem" onClick = { register } > Register </li>
-			<li className = "depth menuitem" onClick = { login } > Login </li>
 		</ul>
-	)
-}
-
-// User actions
-export const AccountView = props => {
-	return (
-		<span id = "accountform">
-			<input placeholder = "Email" id = "email" type = "text" />
-			<input placeholder = "Password" id = "password" type = "password" />
-			<button className = "depth ripple"> { props.action } </button>
-			<a className = "white mouse depth" onClick = { props.reset }> { String.fromCharCode(8592) } Back to menu</a>
-		</span>
 	)
 }
 
