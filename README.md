@@ -4,7 +4,7 @@
 <img height="50px" alt="webpack" src="http://i.imgur.com/ZtANAeL.png" />
 <img height="50px" alt="browsersync" src="http://i.imgur.com/L5peje9.png" />
 <img height="50px" alt="es6" src="http://i.imgur.com/p6ak15u.png" />
-<img height="50px" alt="yeoman" src="http://i.imgur.com/UEtTVfH.png" />
+<img height="50px" alt="yeoman" src="http://i.imgur.com/156voLk.png" />
 
 There is a full stack (node, passport etc) version of this boilerplate available [here]( https://github.com/actuallymentor/react-node-boilerplate )
 
