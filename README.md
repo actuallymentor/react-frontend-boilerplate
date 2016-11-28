@@ -3,8 +3,18 @@
 <img height="50px" alt="react" src="http://i.imgur.com/D19TgT8.png" />
 <img height="50px" alt="webpack" src="http://i.imgur.com/ZtANAeL.png" />
 <img height="50px" alt="browsersync" src="http://i.imgur.com/L5peje9.png" />
+<img height="50px" alt="browsersync" src="http://i.imgur.com/p6ak15u.png" />
 
 This is a little react project boilerplate for frontend-only projects. I made this so I can quickly made mini projects when bored.
+
+| Component | Module |
+| --------- | ------ |
+| View engine | React |
+| Source JS | ES6 |
+| Source Styles | SASS |
+| Source compilation | Webpack with Babel |
+| Dev server | Browsersync |
+
 
 ## Getting started
 
