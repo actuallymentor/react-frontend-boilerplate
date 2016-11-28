@@ -15,7 +15,7 @@ This is a little react project boilerplate for frontend-only projects. I made th
 | Source compilation | Webpack with Babel |
 | Dev server | Browsersync |
 
-[LIVE DEMO]( https://actuallymentor.github.io/react-frontend-boilerplate/ )
+## [LIVE DEMO]( https://actuallymentor.github.io/react-frontend-boilerplate/ )
 
 
 ## Getting started
