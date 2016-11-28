@@ -3,7 +3,8 @@
 <img height="50px" alt="react" src="http://i.imgur.com/D19TgT8.png" />
 <img height="50px" alt="webpack" src="http://i.imgur.com/ZtANAeL.png" />
 <img height="50px" alt="browsersync" src="http://i.imgur.com/L5peje9.png" />
-<img height="50px" alt="browsersync" src="http://i.imgur.com/p6ak15u.png" />
+<img height="50px" alt="es6" src="http://i.imgur.com/p6ak15u.png" />
+<img height="50px" alt="yeoman" src="http://i.imgur.com/UEtTVfH.png" />
 
 There is a full stack (node, passport etc) version of this boilerplate available [here]( https://github.com/actuallymentor/react-node-boilerplate )
 
@@ -24,6 +25,30 @@ This is a little react project boilerplate for frontend-only projects. I made th
 <a href="https://actuallymentor.github.io/react-frontend-boilerplate/"><img src="http://i.imgur.com/xNMHVx5.png" /></a>
 
 ## Getting started
+
+### Through Yeoman
+
+Make sure you have the Yeaman generator manager instaled:
+
+```shell
+ npm install -g yo
+```
+
+Then install this repository's generator package:
+
+```shell 
+npm install -g generator-react-frontend-boilerplate
+```
+
+You can then create an app based on this boilerplate by running:
+
+```shell
+yo react-frontend-boilerplate app-name
+```
+
+Be sure to run webpack (see below).
+
+### Through git
 
 Git clone this repository and npm install.
 
