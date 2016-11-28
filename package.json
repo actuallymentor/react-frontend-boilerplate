@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+ssh://github.com:actuallymentor/react-frontend-boilerplate.git"
   },
-  "author": "Mentor",
+  "author": {
+    "name": "Mentor Palokaj",
+    "email": "mentor@palokaj.co",
+    "url": "https://github.com/actuallymentor"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/actuallymentor/react-frontend-boilerplate/issues"
