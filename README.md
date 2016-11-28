@@ -7,8 +7,6 @@
 
 This is a little react project boilerplate for frontend-only projects. I made this so I can quickly made mini projects when bored.
 
-## [LIVE DEMO]( https://actuallymentor.github.io/react-frontend-boilerplate/ )
-
 | Component | Module |
 | --------- | ------ |
 | View engine | React |
@@ -17,6 +15,9 @@ This is a little react project boilerplate for frontend-only projects. I made th
 | Source compilation | Webpack with Babel |
 | Dev server | Browsersync |
 
+## [Live Demo]( https://actuallymentor.github.io/react-frontend-boilerplate/ )
+
+![Live demo screenshot]( http://i.imgur.com/xNMHVx5.png )
 
 ## Getting started
 
