@@ -11,10 +11,7 @@
   "scripts": {
     "start": "webpack --progress -d --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://github.com:actuallymentor/react-frontend-boilerplate.git"
-  },
+  "repository": "actuallymentor/react-frontend-boilerplate",
   "author": {
     "name": "Mentor Palokaj",
     "email": "mentor@palokaj.co",
