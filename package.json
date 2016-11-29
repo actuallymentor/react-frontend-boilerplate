@@ -6,7 +6,10 @@
   "keywords": [
     "yeoman-generator",
     "react",
-    "webpack"
+    "webpack",
+    "browsersync",
+    "babel",
+    "sass"
   ],
   "scripts": {
     "start": "webpack --progress -d --watch"
@@ -36,7 +39,6 @@
     "postcss-loader": "^1.1.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "request": "^2.75.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2"
