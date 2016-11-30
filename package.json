@@ -4,7 +4,6 @@
   "description": "Skeleton project for apps using React and Webpack",
   "main": "app.js",
   "keywords": [
-    "yeoman-generator",
     "react",
     "webpack",
     "browsersync",
