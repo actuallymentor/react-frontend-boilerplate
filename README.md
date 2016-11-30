@@ -20,7 +20,7 @@ This is a little react project boilerplate for frontend-only projects. I made th
 
 [Link to live demo on Github Pages]( https://actuallymentor.github.io/react-frontend-boilerplate/ )
 
-<a href="https://actuallymentor.github.io/react-frontend-boilerplate/"><img style="width: 500px; max-width: 100%;" src="http://i.imgur.com/xNMHVx5.png" /></a>
+<a href="https://actuallymentor.github.io/react-frontend-boilerplate/"><img style="max-width: 100%;" src="http://i.imgur.com/xNMHVx5.png" /></a>
 
 ## Getting started
 
