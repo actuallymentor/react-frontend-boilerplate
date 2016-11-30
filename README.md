@@ -24,6 +24,46 @@ This is a little react project boilerplate for frontend-only projects. I made th
 
 ## Getting started
 
+### Through the built in generator
+
+Make sure to have this package installed globally:
+
+```shell
+npm install -g react-frontend-boilerplate
+```
+
+You can then inside any folder generate a boilerplate:
+
+```shell
+generate-react-frontend
+```
+
+Which will generate the followng scaffold:
+
+```shell
+├── LICENSE.md
+├── README.md
+├── package.json
+├── public
+│   └── index.html
+├── src
+│   ├── main.js
+│   ├── state
+│   │   ├── body.js
+│   │   └── head.js
+│   ├── stateless
+│   │   ├── body-views.js
+│   │   ├── footer-views.js
+│   │   ├── head-views.js
+│   │   └── lorem-ipsum-view.js
+│   └── styles
+│       ├── hamburgers
+│       │   ├── LICENSE
+│       │   └── hamburgericon.scss
+│       └── styles.scss
+└── webpack.config.js
+```
+
 ### Through git
 
 Git clone this repository and npm install.
