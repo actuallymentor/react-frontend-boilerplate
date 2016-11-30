@@ -29,7 +29,7 @@ This is a little react project boilerplate for frontend-only projects. I made th
 Make sure to have this package installed globally:
 
 ```shell
-npm install -g react-frontend-boilerplate
+npm install -g generator-react-frontend-boilerplate
 ```
 
 You can then inside any folder generate a boilerplate:
