@@ -1,5 +1,5 @@
 {
-  "name": "generator-react-frontend-boilerplate",
+  "name": "react-frontend-boilerplate",
   "version": "1.0.6",
   "description": "Skeleton project for apps using React and Webpack",
   "main": "app.js",
@@ -10,6 +10,9 @@
     "babel",
     "sass"
   ],
+  "bin": {
+    "generate-react-frontend": "generate.js"
+  },
   "scripts": {
     "start": "webpack --progress -d --watch"
   },
@@ -24,7 +27,10 @@
     "url": "https://github.com/actuallymentor/react-frontend-boilerplate/issues"
   },
   "homepage": "https://github.com/actuallymentor/react-frontend-boilerplate#readme",
-  "dependencies": {},
+  "dependencies": {
+    "colors": "^1.1.2",
+    "ncp": "^2.0.0"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.2",
     "babel-core": "^6.17.0",
