@@ -6,40 +6,73 @@
 
 	<!-- Page Title. Maximum length 60-70 characters -->
 	<title>React Frontend Boilerplate</title>
-	<meta name="twitter:title" content="Page Title">
-	<meta property="og:title" content="Title Here" />
+	<meta name="twitter:title" content="React Frontend Boilerplate">
+	<meta property="og:title" content="React Frontend Boilerplate" />
 
-	<!-- Page description -->
-	<meta name="description" content="Page description. No longer than 155 characters." />
-	<meta name="twitter:description" content="Page description less than 200 characters">
+	<!-- Page description, html desc max 155, twitter 200 -->
+	<meta name="description" content="A frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server" />
+	<meta name="twitter:description" content=" frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server">
 
 	<!-- Current page description -->
-	<meta name="twitter:card" content="summary">
-	<meta property="og:description" content="Description Here" />
+	<meta name="twitter:card" content=" frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server">
+	<meta property="og:description" content=" frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server" />
 
-	<!-- Publisher data -->
-
-	<meta name="twitter:site" content="@publisher_handle">
-	<meta property="og:site_name" content="Site Name, i.e. Moz" />
+	<!-- Publisher data, this is about the organisation not the person -->
+	<meta name="twitter:site" content="@actuallymentor">
+	<meta property="og:site_name" content="Mentor Palokaj" />
 
 	<!-- Writer data -->
-	<meta name="twitter:creator" content="@author_handle">
+	<meta name="twitter:creator" content="@actuallymentor">
 
 	<!-- Image for this page, twitter min 120pxx120px -->
-	<meta property="og:image" content="http://example.com/image.jpg" />
-	<meta name="twitter:image" content="http://www.example.com/image.jpg">
+	<meta property="og:image" content="http://i.imgur.com/xNMHVx5.png" />
+	<meta name="twitter:image" content="http://i.imgur.com/xNMHVx5.png">
 
 	<!-- Meta data -->
-	<meta property="og:type" content="article" />
-	<meta property="og:url" content="http://www.example.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://github.com/actuallymentor/react-frontend-boilerplate" />
 	<!-- This key is used for gaining permission to post to user feeds who liked you -->
-	<meta property="fb:admins" content="Facebook numberic ID" />
-
-
+	<meta property="fb:admins" content="1299359953416544" />
 
 </head>
 <body>
 	<div id="container"></div>
 	<script src='./js/app.js'></script>
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "WebPage",
+			"mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": "https://github.com/actuallymentor/"
+			},
+			"headline": "React Frontend Boilerplate",
+			"image": {
+				"@type": "ImageObject",
+				"url": "http://i.imgur.com/xNMHVx5.png",
+				"height": 3360,
+				"width": 1948
+			},
+			"datePublished": "November 30, 2016",
+			"dateModified": "November 30, 2016",
+			"author": {
+				"@type": "Person",
+				"name": "Mentor Palokaj",
+				"url": "https://github.com/actuallymentor/"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "Mentor Palokaj",
+				"url": "https://github.com/actuallymentor/",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "http://i.imgur.com/xNMHVx5.png",
+					"width": 3360,
+					"height": 1948
+				}
+			},
+			"description": "A frontend boilerplate written in React."
+		}
+	</script>
 </body>
 </html>
