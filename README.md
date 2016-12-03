@@ -24,6 +24,19 @@ This is a little react project boilerplate for frontend-only projects. I made th
 
 ## Getting started
 
+Configuration options I siggest you look at:
+
+| Option | Location |
+| ------ | -------- |
+| Google Analytics | Add your  tracking ID in the index.html |
+| Opengraph, Twitter card metadata | In the head of the index.html |
+| Google Schema Metadata | In the ld+json section of the index.html |
+| Site title and logo | Props of <Header /> in main.js |
+| Site copyright owner | Props of <Footer /> in main.js |
+| Set additional menu links | state.menuLinks in state/head.js |
+| Remove Lorem paragraph | Props of <Section /> in main.js |
+
+
 ### Through the built in generator
 
 Make sure to have this package installed globally:
