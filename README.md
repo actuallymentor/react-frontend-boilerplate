@@ -24,7 +24,7 @@ This is a little react project boilerplate for frontend-only projects. I made th
 
 ## Getting started
 
-Configuration options I siggest you look at:
+Configuration options I suggest you look at:
 
 | Option | Location |
 | ------ | -------- |
