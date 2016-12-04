@@ -1,6 +1,6 @@
 {
   "name": "generator-react-frontend-boilerplate",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Boilerplate for apps using React and Webpack",
   "main": "app.js",
   "keywords": [
@@ -14,7 +14,8 @@
     "generate-react-frontend": "generate.js"
   },
   "scripts": {
-    "start": "webpack --progress -d --watch"
+    "start": "webpack --progress -d --watch",
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": "actuallymentor/react-frontend-boilerplate",
   "author": {
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/actuallymentor/react-frontend-boilerplate#readme",
   "dependencies": {
+    "babel-polyfill": "^6.16.0",
     "colors": "^1.1.2",
     "ncp": "^2.0.0"
   },
@@ -39,7 +41,12 @@
     "babel-preset-react": "^6.16.0",
     "browser-sync": "^2.17.5",
     "browser-sync-webpack-plugin": "^1.1.3",
-    "css-loader": "^0.25.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "enzyme": "^2.6.0",
+    "jsdom": "9.8.3",
+    "jsdom-global": "2.1.0",
+    "mocha": "^3.2.0",
     "node-sass": "^3.10.1",
     "postcss-loader": "^1.1.0",
     "react": "^15.3.2",
