@@ -16,6 +16,7 @@ This is a little react project boilerplate for frontend-only projects. I made th
 | Source Styles | SASS |
 | Source compilation | Webpack with Babel |
 | Dev server | Browsersync |
+| Testing framework | Mocha with Enzyme |
 
 ## Live Demo
 
