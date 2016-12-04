@@ -11,7 +11,8 @@
     "sass"
   ],
   "bin": {
-    "generate-react-frontend": "generate.js"
+    "generate-react-frontend": "generate.js",
+    "grf": "generate.js"
   },
   "scripts": {
     "start": "webpack --progress -d --watch",

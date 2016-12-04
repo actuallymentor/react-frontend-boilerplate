@@ -52,7 +52,8 @@ npm install -g generator-react-frontend-boilerplate
 You can then inside any folder generate a boilerplate:
 
 ```shell
-generate-react-frontend
+generate-react-frontend # generate scaffold
+grf                     # shorthand for same command
 ```
 
 Which will generate the followng scaffold:
