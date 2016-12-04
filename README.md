@@ -1,11 +1,10 @@
 # React Frontend Boilerplate
 
+[![npm version](https://badge.fury.io/js/generator-react-frontend-boilerplate.svg)](https://badge.fury.io/js/generator-react-frontend-boilerplate) [![Build Status](https://travis-ci.org/actuallymentor/react-frontend-boilerplate.svg?branch=master)](https://travis-ci.org/actuallymentor/react-frontend-boilerplate)
 <img height="50px" alt="react" src="http://i.imgur.com/D19TgT8.png" />
 <img height="50px" alt="webpack" src="http://i.imgur.com/ZtANAeL.png" />
 <img height="50px" alt="browsersync" src="http://i.imgur.com/L5peje9.png" />
 <img height="50px" alt="mocha" src="http://i.imgur.com/yo9d9Qe.png" />
-
-[![npm version](https://badge.fury.io/js/generator-react-frontend-boilerplate.svg)](https://badge.fury.io/js/generator-react-frontend-boilerplate) [![Build Status](https://travis-ci.org/actuallymentor/react-frontend-boilerplate.svg?branch=master)](https://travis-ci.org/actuallymentor/react-frontend-boilerplate)
 
 There is a full stack (node, passport etc) version of this boilerplate available [here]( https://github.com/actuallymentor/react-node-boilerplate )
 
