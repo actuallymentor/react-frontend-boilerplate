@@ -14,7 +14,8 @@
     "generate-react-frontend": "generate.js"
   },
   "scripts": {
-    "start": "webpack --progress -d --watch"
+    "start": "webpack --progress -d --watch",
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": "actuallymentor/react-frontend-boilerplate",
   "author": {
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/actuallymentor/react-frontend-boilerplate#readme",
   "dependencies": {
+    "babel-polyfill": "^6.16.0",
     "colors": "^1.1.2",
     "ncp": "^2.0.0"
   },
@@ -46,6 +48,7 @@
     "node-sass": "^3.10.1",
     "postcss-loader": "^1.1.0",
     "react": "^15.3.2",
+    "react-addons-test-utils": "^15.4.1",
     "react-dom": "^15.3.2",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
