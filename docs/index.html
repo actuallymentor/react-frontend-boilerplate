@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Amazing App</title>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Page Title. Maximum length 60-70 characters -->
+	<title>React Frontend Boilerplate</title>
+	<meta name="twitter:title" content="React Frontend Boilerplate">
+	<meta property="og:title" content="React Frontend Boilerplate" />
+
+	<!-- Page description, html desc max 155, twitter 200 -->
+	<meta name="description" content="A frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server" />
+	<meta name="twitter:description" content=" frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server">
+
+	<!-- Current page description -->
+	<meta name="twitter:card" content=" frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server">
+	<meta property="og:description" content=" frontend boilerplate generator written in React, compiled with Webpack using Browsersync as a development server" />
+
+	<!-- Publisher data, this is about the organisation not the person -->
+	<meta name="twitter:site" content="@actuallymentor">
+	<meta property="og:site_name" content="Mentor Palokaj" />
+
+	<!-- Writer data -->
+	<meta name="twitter:creator" content="@actuallymentor">
+
+	<!-- Image for this page, twitter min 120pxx120px -->
+	<meta property="og:image" content="http://i.imgur.com/xNMHVx5.png" />
+	<meta name="twitter:image" content="http://i.imgur.com/xNMHVx5.png">
+
+	<!-- Meta data -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://github.com/actuallymentor/react-frontend-boilerplate" />
+
+	<!-- This key is used for gaining permission to post to user feeds who liked you -->
+	<meta property="fb:admins" content="1299359953416544" />
+
+	<!-- DNS Prefetching, do this for all your CDNs -->
+	<link rel="dns-prefetch" href="//www.google-analytics.com" />
+	<link rel="dns-prefetch" href="//fonts.googleapis.com.com" />
+
 </head>
 <body>
 	<div id="container"></div>
+
+	<!-- React application -->
 	<script src='./js/app.js'></script>
+
+	<!-- Google Schema -->
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "WebPage",
+			"mainEntityOfPage": {
+				"@type": "WebPage",
+				"@id": "https://github.com/actuallymentor/"
+			},
+			"headline": "React Frontend Boilerplate",
+			"image": {
+				"@type": "ImageObject",
+				"url": "http://i.imgur.com/xNMHVx5.png",
+				"height": 3360,
+				"width": 1948
+			},
+			"datePublished": "November 30, 2016",
+			"dateModified": "November 30, 2016",
+			"author": {
+				"@type": "Person",
+				"name": "Mentor Palokaj",
+				"url": "https://github.com/actuallymentor/"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "Mentor Palokaj",
+				"url": "https://github.com/actuallymentor/",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "http://i.imgur.com/xNMHVx5.png",
+					"width": 3360,
+					"height": 1948
+				}
+			},
+			"description": "A frontend boilerplate written in React."
+		}
+	</script>
+
+	<!-- Google Analytics tracking -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-XXXXXXXX-XX', 'auto');
+		ga('require', 'displayfeatures');
+		ga('send', 'pageview');
+
+	</script>
 </body>
 </html>

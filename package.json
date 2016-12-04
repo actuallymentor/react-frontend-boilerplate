@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "webpack --progress -d --watch",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha --compilers js:babel-core/register",
+    "build": "webpack --progress -p"
   },
   "repository": "actuallymentor/react-frontend-boilerplate",
   "author": {
