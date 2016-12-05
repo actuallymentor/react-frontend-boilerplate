@@ -42,7 +42,8 @@ copy( 'LICENSE.md' )
 copy( 'README.md' )
 
 console.log( "\n# If no errors ocurred you are good to go".green )
-console.log( "Please run 'npm install' and use 'webpack -d --progress --watch' to trigger your first build\n".yellow )
+console.log( "Please run 'npm install' and use 'npm start\n".yellow )
+console.log( "For a production build use 'npm run build'\n".yellow )
 
 // Thank you message
 console.log( 'Enjoy writing your app'.green )
