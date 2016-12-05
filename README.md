@@ -62,6 +62,9 @@ Which will generate the followng scaffold:
 ├── LICENSE.md
 ├── README.md
 ├── package.json
+├── .gitignore
+├── .travis.yml
+├── .babelrc
 ├── public
 │   └── index.html
 ├── src

@@ -35,6 +35,9 @@ ncp( path.package + '/public', path.current + '/public', err => { if ( err ) con
 console.log( '- Grabbing build scripts and config files'.gray )
 copy( 'webpack.config.js' )
 copy( 'package.json' )
+copy( '.babelrc' )
+copy( '.travis.yml' )
+copy( '.gitignore' )
 copy( 'LICENSE.md' )
 copy( 'README.md' )
 
