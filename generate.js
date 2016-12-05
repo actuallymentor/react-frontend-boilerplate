@@ -37,9 +37,12 @@ copy( 'webpack.config.js' )
 copy( 'package.json' )
 copy( '.babelrc' )
 copy( '.travis.yml' )
-copy( '.gitignore' )
 copy( 'LICENSE.md' )
 copy( 'README.md' )
+// Manual .gigignore because npm handles gitignores weirdly
+fs.writeFile( path.current + '/.gitignore', 'node_modules\npublic/js/*\n.DS_STORE', err => {
+	if ( err ) console.log( err )
+} )
 
 console.log( "\n# If no errors ocurred you are good to go".green )
 console.log( "Please run 'npm install' and use 'npm start".yellow )
