@@ -15,9 +15,9 @@
     "grf": "generate.js"
   },
   "scripts": {
-    "start": "webpack --progress -d --watch",
+    "start": "NODE_ENV=development webpack --progress -d --watch",
     "test": "mocha --compilers js:babel-core/register",
-    "build": "webpack --progress -p"
+    "build": "NODE_ENV=production webpack --progress -p"
   },
   "repository": "actuallymentor/react-frontend-boilerplate",
   "author": {
