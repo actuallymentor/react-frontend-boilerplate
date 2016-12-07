@@ -229,6 +229,9 @@ p {
                 text-decoration: underline;
                 cursor: pointer;
                 margin: 10px 0;
+                li {
+                	padding: 10px 0;
+                }
             }
         }
         #accountform {

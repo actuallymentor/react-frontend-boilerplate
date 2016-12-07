@@ -28,6 +28,8 @@ console.log( "# Copying project files".green )
 // Copy folders
 console.log( '- Copying source code'.gray )
 ncp( path.package + '/src', path.current + '/src', err => { if ( err ) console.log( colors.red( err ) ) } )
+console.log( '- Copying test code'.gray )
+ncp( path.package + '/test', path.current + '/test', err => { if ( err ) console.log( colors.red( err ) ) } )
 console.log( '- Copying web scaffold'.gray )
 ncp( path.package + '/public', path.current + '/public', err => { if ( err ) console.log( colors.red( err ) ) } )
 
