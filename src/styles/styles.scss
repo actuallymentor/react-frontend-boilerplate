@@ -47,6 +47,12 @@ body {
 	font-weight: 300;
 }
 
+// App container defs
+#container {
+	position: relative;
+	overflow: hidden;
+}
+
 // Sticky footer
 .flexify {
 	display: flex;
@@ -233,35 +239,6 @@ p {
                 	padding: 10px 0;
                 }
             }
-        }
-        #accountform {
-        	display: flex;
-        	flex-direction: column;
-        	padding: 0 2%;
-        	@include min-size ( $mobile) {
-        		padding: 0 2%;
-        	}
-        	@include min-size ( $tablet) {
-        		padding: 0 20%;
-        	}
-        	@include min-size ( $laptop) {
-        		padding: 0 40%;
-        	}
-        	input,
-        	button {
-        		margin: 10px 0;
-        		padding: 10px 5px;
-        		border: none;
-        		text-align: center;
-        		color: $accent-color;
-        		background-color: white;
-        		font-weight: bold;
-        		font-size: 1rem;
-        		text-transform: capitalize;
-        		&:hover {
-        			@include hover-element( $hover-speed)
-        		}
-        	}
         }
     }
     #menu-btn {
