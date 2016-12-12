@@ -1,6 +1,6 @@
 # React Frontend Boilerplate
 
-[![npm version](https://badge.fury.io/js/generator-react-frontend-boilerplate.svg)](https://badge.fury.io/js/generator-react-frontend-boilerplate) [![Build Status](https://travis-ci.org/actuallymentor/react-frontend-boilerplate.svg?branch=master)](https://travis-ci.org/actuallymentor/react-frontend-boilerplate)
+[![npm version](https://badge.fury.io/js/generator-react-frontend-boilerplate.svg)](https://badge.fury.io/js/generator-react-frontend-boilerplate) [![Build Status](https://travis-ci.org/actuallymentor/react-frontend-boilerplate.svg?branch=master)](https://travis-ci.org/actuallymentor/react-frontend-boilerplate) [![NSP Status](https://nodesecurity.io/orgs/open-source-projects/projects/ce0b6e85-5704-46d6-a1ef-35d22aebf3ce/badge)](https://nodesecurity.io/orgs/open-source-projects/projects/ce0b6e85-5704-46d6-a1ef-35d22aebf3ce)
 
 <img height="50px" alt="react" src="http://i.imgur.com/D19TgT8.png" />
 <img height="50px" alt="webpack" src="http://i.imgur.com/ZtANAeL.png" />
