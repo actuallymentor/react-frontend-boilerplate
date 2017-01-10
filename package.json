@@ -1,6 +1,6 @@
 {
   "name": "generator-react-frontend-boilerplate",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "Boilerplate for apps using React and Webpack",
   "main": "app.js",
   "keywords": [
