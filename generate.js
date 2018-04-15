@@ -53,4 +53,3 @@ console.log( "For a production build use 'npm run build'\n".yellow )
 // Thank you message
 console.log( 'Enjoy writing your app'.green )
 console.log( 'Github page: https://github.com/actuallymentor/react-frontend-boilerplate'.gray )
-console.log( 'Full stack version: https://github.com/actuallymentor/react-node-boilerplate\n'.gray )
