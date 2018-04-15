@@ -53,8 +53,7 @@ const stringify_env = f => {
   return environment
 }
 
-const plugins = process.env.NODE_ENV == 'production' ?
-  [ new webpack.optimize.UglifyJsPlugin( { compress: { warnings: false }, sourceMap: true } ),
+const plugins = process.env.NODE_ENV == 'production' ? [
     new webpack.DefinePlugin( { 'process.env': { NODE_ENV: JSON.stringify( 'production' ) } } ),
     new webpack.DefinePlugin( stringify_env( ) ) ]
   :
