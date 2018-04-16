@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=development webpack --progress -d --watch",
-    "test": "mocha --require babel-register",
+    "test": "mocha --require @babel/register --require @babel/polyfill",
     "build": "NODE_ENV=production webpack --progress -p"
   },
   "repository": "actuallymentor/react-frontend-boilerplate",
@@ -31,17 +31,17 @@
   },
   "homepage": "https://github.com/actuallymentor/react-frontend-boilerplate#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.0.0-beta.44",
+    "@babel/register": "^7.0.0-beta.44",
     "ncp": "^2.0.0",
     "webpack-cli": "^2.0.14"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.44",
     "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
     "autoprefixer": "^8.2.0",
     "babel-loader": "^8.0.0-beta.2",
-    "babel-polyfill": "^7.0.0-beta.3",
-    "babel-preset-react": "^7.0.0-beta.3",
-    "babel-register": "^6.26.0",
     "browser-sync": "^2.23.6",
     "browser-sync-webpack-plugin": "^2.2.2",
     "chai": "^4.1.2",

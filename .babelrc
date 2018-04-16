@@ -1,11 +1,10 @@
 {
   "presets": [
     [ "@babel/preset-env", { 
-	    "modules": false,
 	    "loose": true,
 	    "targets": { "browsers": [ "last 2 versions" ] },
 	    "debug": false
 	} ],
-	"react"
+	"@babel/preset-react"
   ]
 }
