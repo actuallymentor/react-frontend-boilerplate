@@ -31,13 +31,13 @@
   },
   "homepage": "https://github.com/actuallymentor/react-frontend-boilerplate#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.0.0-beta.44",
-    "@babel/register": "^7.0.0-beta.44",
     "ncp": "^2.0.0",
     "webpack-cli": "^2.0.14"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.44",
+    "@babel/polyfill": "^7.0.0-beta.44",
+    "@babel/register": "^7.0.0-beta.44",
     "@babel/preset-env": "^7.0.0-beta.44",
     "@babel/preset-react": "^7.0.0-beta.44",
     "autoprefixer": "^8.2.0",
