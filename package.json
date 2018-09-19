@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "NODE_ENV=development webpack --progress -d --watch",
-    "test": "mocha --require @babel/register --require @babel/polyfill",
+    "test": "mocha --require dotenv/config --require @babel/register --require @babel/polyfill",
     "build": "NODE_ENV=production webpack --progress -p"
   },
   "repository": "actuallymentor/react-frontend-boilerplate",
