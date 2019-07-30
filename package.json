@@ -31,15 +31,14 @@
   },
   "homepage": "https://github.com/actuallymentor/react-frontend-boilerplate#readme",
   "dependencies": {
-    "ncp": "^2.0.0",
-    "webpack-cli": "^3.3.6"
+    "ncp": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/polyfill": "^7.4.4",
-    "@babel/register": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
     "autoprefixer": "^9.6.1",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
@@ -57,6 +56,7 @@
     "react-dom": "^16.8.6",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.38.0"
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
   }
 }
