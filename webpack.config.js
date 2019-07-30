@@ -95,7 +95,7 @@ module.exports = {
           {
             loader: "postcss-loader",
             options: {
-              plugins: f => { return [ autoprefixer( { browsers: ['last 2 versions'] } ) ] }
+              plugins: f => { return [ autoprefixer() ] }
             }
           },
           "sass-loader" ]
